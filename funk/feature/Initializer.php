@@ -15,6 +15,6 @@ class Initializer implements \Funk\Spec
 
     public function it_uses_mink()
     {
-        expect($this->mink)->toHaveType('Behat\Mink\Mink');
+        var_dump(get_class($this->mink));
     }
 }
