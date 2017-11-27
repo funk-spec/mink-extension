@@ -1,0 +1,23 @@
+{
+    "name": "funk-spec/mink-extension",
+    "description": "extension that helps using your mink services in your tests",
+    "require": {
+        "php": ">=5.4",
+        "behat/mink-extension": "~2.0",
+        "docteurklein/funk-spec": "^0.1"
+    },
+    "require-dev": {
+        "bossa/phpspec2-expect": "~1.0.2",
+        "behat/mink-selenium2-driver": "~1.1.1"
+    },
+    "autoload": {
+        "psr-4": { "FunkSpec\\Extension\\Mink\\": "src/FunkSpec/Extension/Mink" }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Klein Florian",
+            "email": "florian.klein@free.fr"
+        }
+    ]
+}
